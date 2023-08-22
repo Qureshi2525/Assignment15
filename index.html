@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./wd logo.png" type="image/x-icon">
+    <style>
+.blink {
+                animation: blinker 1.0s linear infinite;
+                color: rgb(17, 0, 255);
+                font-family: sans-serif;
+                text-align: center;
+                /* margin: 5% 5%; */
+                font-size: large;
+                /* padding-right: 300px; */
+                cursor: pointer;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+            .marquee{
+            animation: blinker 1.5s linear infinite;
+            color: rgb(4, 102, 69);
+            font-family: sans-serif;
+            transition: all;
+            font-size: xx-large;
+            cursor: pointer;
+            border: 1px solid black;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+.main{
+    width: 100%;
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid saddlebrown; */
+    margin: auto;
+    justify-content: end;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.item1{
+    /* border: 1px solid red; */
+padding: 10px;
+margin: 10px;
+font-weight: bolder;
+color: tomato;
+cursor: pointer;
+}
+.item1:hover{
+    /* border: 1px solid red; */
+padding: 10px;
+margin: 10px;
+font-weight: bolder;
+color: blueviolet;
+text-decoration: underline;
+font-size: x-large;
+cursor: pointer; 
+text-transform: uppercase;
+border: 1px solid wheat;
+}
+.button{
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    background-color: rgb(43, 43, 197);
+    cursor: pointer;
+}
+.button:hover{
+    padding: 10px;
+    margin: 10px;
+    width: 280px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    background-color: rgb(197, 43, 43);
+    cursor: pointer;
+    font-size: x-large;
+    text-decoration: underline;
+    text-transform: uppercase;
+    border: 1px solid tomato;
+}
+.img1{
+    padding-right: 220px;
+}
+.img1:hover{
+    margin-right: 80px;
+    background-color: rgb(218, 152, 231);
+    border: 1px solid red;
+}
+.main1{
+    width: 100%;
+    cursor: pointer;
+}
+.main1:hover{
+    width: 80%;
+    cursor: pointer;
+    padding-left: 160px;
+    padding-right: 180px;
+    border: 1px solid brown;
+}
+.main2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: auto;
+    cursor: pointer;
+}
+.web{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.img2{
+    padding-top: 50px;
+    padding-left: 170px;
+cursor: pointer;
+}
+.img2:hover{
+    padding-top: 50px;
+    padding-left: 170px;
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    border: 1px solid greenyellow;
+}
+.h1{
+    padding-top: 20px;
+    padding-left: 30px;
+    /* display: flex; */
+font-size: xx-large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: underline;
+font-style: italic;
+font-weight: bolder;
+}
+.h1:hover{
+    padding-top: 20px;
+    padding-left: 30px;
+    /* display: flex; */
+font-size: xx-large;
+font-family: 'Courier New', Courier, monospace;
+text-decoration: underline;
+font-style: italic;
+font-weight: bolder;
+text-decoration: underline;
+text-transform: uppercase;
+color: tomato;
+border: 1px solid black;
+}
+p{
+    font-size: x-large;
+    padding-left: 30px;
+    cursor: pointer;
+    }
+    p:hover{
+    font-size: x-large;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    font-weight: bolder;
+    border: 1px solid blue;
+    }
+    .p1{
+        font-size: x-large;
+    margin-left: 20px;
+    }
+    .p1:hover{
+        font-size: xx-large;
+    margin-left: 20px;
+    color: tomato;
+    border: 1px solid blueviolet;
+    } 
+
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <img src="./westerndeal1.png" alt="" class="img1">
+        <div class="item1">Home</div>
+        <div class="item1">Services</div>
+        <div class="item1">Work</div>
+        <div class="item1">About</div>
+        <div class="item1">Contact</div>
+        <Button class="button">FREE Consulation</Button>
+    </div>
+    <marquee class="marquee">YASIR RASHEED QURESHI WEB AND AAP CCO - 118488 TEACHER SIR RIZWAN BHATTI.</marquee>
+    <img src="./wd.png" alt="" class="main1">
+    <div class="main2">
+        <img src="./westerndeal3.webp" alt="" width="500px" height="500px" class="img2">
+    <div class="web">
+        <p class="h1">Web Design</p>
+        <p class="blink">YASIR RASHEED CCO - 118488</p>
+        <p>A Website Design is not just the look and feel of any <br> website.
+        <br>
+        <br>
+        The website must portray the business intentions, At <br>
+        Westerndeal, we focus not on just the look and feel of the <br>
+        website but also the end user intent. Our strategy is to bring <br>
+        the best for the end users by making the website user <br>
+        friendly. Website can be classified into many types. <br>
+    <br>
+    Our <b>Web Designing Service</b> focus on:
+    <Ul class="p1">
+
+        <Li>State of the art web design</Li>
+        <Li>Branding With the best possible outcome</Li>
+        <Li>Hybrid and attractive look and feel</Li>
+    </Ul>
+    
+</p>
+
+    </div>
+</div>
+</body>
+</html>
